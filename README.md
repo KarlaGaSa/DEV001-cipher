@@ -1,21 +1,45 @@
-# Cifrado César
+# Tu App de Secretos
 
 ## Índice
 
-* [1. Objetivos de aprendizaje generales](#1-objetivos-de-aprendizaje-generales)
-* [2. Preámbulo](#2-preámbulo)
-* [3. Resumen del proyecto](#2-resumen-del-proyecto)
-* [4. Consideraciones generales](#4-consideraciones-generales)
-* [5. Hito 1: Criterios de aceptación mínimos del proyecto](#5-hito-1-criterios-de-aceptación-mínimos-del-proyecto)
-* [6. Hito 2 (opcional): Agrega soporte para minúsculas y otros caracteres](#6-hito-2-(opcional)-agrega-soporte-para-minúsculas-y-otros-caracteres)
-* [7. Consideraciones técnicas](#7-consideraciones-técnicas)
-* [8. Objetivos de aprendizaje](#3-objetivos-de-aprendizaje)
-* [9. Pistas, tips y lecturas complementarias](#8-pistas-tips-y-lecturas-complementarias)
-* [10. Para considerar Project Feedback](#10-para-considerar-project-feedback)
+* [1. Qué hace esta app para mi](#1-que-hace-esta-app-para-mi)
+* [2. Cómo fuciona](#2-como-funciona)
+* [3. Objetivos de aprendizaje generales](#3-objetivos-de-aprendizaje-generales)
+* [4. Preámbulo](#4-preámbulo)
+* [5. Resumen del proyecto](#5-resumen-del-proyecto)
+* [6. Consideraciones generales](#6-consideraciones-generales)
+* [7. Hito 1: Criterios de aceptación mínimos del proyecto](#7-hito-1-criterios-de-aceptación-mínimos-del-proyecto)
+* [8. Hito 2 (opcional): Agrega soporte para minúsculas y otros caracteres](#8-hito-2-(opcional)-agrega-soporte-para-minúsculas-y-otros-caracteres)
+* [9. Consideraciones técnicas](#9-consideraciones-técnicas)
+* [10. Objetivos de aprendizaje](#10-objetivos-de-aprendizaje)
+* [11. Pistas, tips y lecturas complementarias](#11-pistas-tips-y-lecturas-complementarias)
+* [12. Para considerar Project Feedback](#12-para-considerar-project-feedback)
 
 ***
 
-## 1. Objetivos de aprendizaje generales
+## 1. Qué hace esta App para mi
+Tu App de Secretos
+
+Es una app diseñada para poder dejar los secretos que te quitan el sueño, al usar el cifrado césar en la combinación de números que tú elijas, serás la única persona que sabrá como descifralos.
+
+Esta es una aplicación con fines de entretenimiento, dirigida a cualquier persona que desee divertirse y probar con los secretos y el cifrado. 
+La información no es compartida con nadie más mientras las personas usuarias no compartan el texto cifrado y el número de código, lo cual queda bajo su entera responsabilidad. 
+
+## 2. Cómo funciona
+
+Para hacer uso de esta aplicación en su fucnión de CIFRAR:
+1. La persona deben ingresar el secreto a esconder en la primer caja de texto
+2. Seleccionar un número de cifrado entre 1 y 999.
+3. Dar clic en el botón "Esconde mi secreto".
+4. Podrá obtener un texto cifrado de acuerdo al cógigo numérico seleccionado. 
+
+Para hacer uso de esta aplicación en su fucnión de DESCIFRAR:
+1. La persona deben ingresar el texto previamente cifrado en la primer caja de texto
+2. Debera ingresar el mismo código númerico con el cual se cifró el mensaje originalmente (un número entre 1 y 999).
+3. Dar clic en el botón "Muéstrame mi secreto".
+4. Podrá leer nuevamnet el mensaje orioginal en la segunda caja de texto. 
+
+## 3. Objetivos de aprendizaje generales
 Como continuación del proyecto de preadmisión, volverás a trabajar sobre fundamentos de JavaScript, incluyendo conceptos como variables, condicionales, y funciones, así como eventos y manipulación básica del DOM, fundamentos de HTML y CSS.
 
 Mientras desarrollas este proyecto, te familiarizarás con estos nuevos conceptos:
@@ -26,7 +50,7 @@ Mientras desarrollas este proyecto, te familiarizarás con estos nuevos concepto
 * Iteración (bucles) en JavaScript.
 * Control de versiones con git (y la plataforma github)
 
-## 2. Preámbulo
+## 3. Preámbulo
 
 Cifrar significa codificar. El [cifrado César](https://en.wikipedia.org/wiki/Caesar_cipher)
 es uno de los primeros métodos de cifrado conocidos. El emperador romano Julio
@@ -53,7 +77,7 @@ comunicación por sí mismos; el cifrado César sí puede formar parte de sistem
 más complejos de codificación, como el cifrado Vigenère, e incluso tiene
 aplicación en el sistema ROT13.
 
-## 3. Resumen del proyecto
+## 4. Resumen del proyecto
 
 En este proyecto crearás una aplicación web que servirá para que tu usuaria
 pueda cifrar y descifrar un texto en el navegador indicando un desplazamiento específico de
@@ -69,14 +93,14 @@ Algunas ideas de ejemplo:
   una zona de conflicto.
 * Mensajería secreta para parejas.
 
-## 4. Consideraciones generales
+## 5. Consideraciones generales
 
 * Este proyecto lo resolvemos de manera individual. Te recomendamos una duracion de 1-3 sprints.
 * Enfócate en aprender y no solamente en "completar" el proyecto. Te va a costar.
 * Te sugerimos que no intentes saberlo todo antes de empezar a codear. No te preocupes demasiado ahora por lo que _todavía_ no entiendas. Irás aprendiendo.
 
 
-## 5. Hito 1: Criterios de aceptación mínimos del proyecto 
+## 6. Hito 1: Criterios de aceptación mínimos del proyecto 
 
 Estos son los requisitos que tu proyecto debe que cumplir para asegurar que tu trabajo cubra los objetivos principales.  
 
@@ -109,7 +133,7 @@ Estos son los requisitos que tu proyecto debe que cumplir para asegurar que tu t
 
 Con estos requisitos cumplidos puedes agendar un Project Feedback con unx coach.
 
-## 6. Hito 2 (opcional): Agrega soporte para minúsculas y otros caracteres
+## 7. Hito 2 (opcional): Agrega soporte para minúsculas y otros caracteres
 
 Las partes "opcionales" tienen como intención permitirte profundizar un poco más sobre 
 los objetivos de aprendizaje del proyecto. Todo en la vida tiene pros y contras, decide 
@@ -119,7 +143,7 @@ nuevas en el siguiente proyecto.
 El hito 1 no menciona qué pasaría con las letras minúsculas y otros caracteres (como espacios, puntuación, ñ, ...). El _boilerplate_ incluye algunos _tests_ (comentados en principio) que 
 puedes usar como punto de partida para implementar el soporte para estos casos adicionales.
 
-## 7. Consideraciones técnicas
+## 8. Consideraciones técnicas
 
 La lógica del proyecto debe estar implementada completamente en JavaScript. En
 este proyecto NO está permitido usar librerías o frameworks, solo JavaScript puro
@@ -200,7 +224,7 @@ El comando `npm run deploy` puede ayudarte con esta tarea y también puedes
  
 ***
 
-## 8. Objetivos de aprendizaje
+## 9. Objetivos de aprendizaje
 
 Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en tu proyecto. Piensa en eso al decidir tu estrategia de trabajo.
 
@@ -365,7 +389,7 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 ***
 
-## 9. Pistas, tips y lecturas complementarias
+## 10. Pistas, tips y lecturas complementarias
 
 ### Prepara tu PC para trabajar.
 
@@ -437,7 +461,7 @@ Organización del Trabajo:
 
 ***
 
-## 10. Para considerar Project Feedback
+## 11. Para considerar Project Feedback
 
 En resumen, los criterios de aceptación mínimos del proyecto para considerar Project Feedback:
 
