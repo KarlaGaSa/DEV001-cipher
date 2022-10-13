@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tu app de secretos</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div id="encabezado">
+        <h1>Cuéntanos tus secretos</h1>
+      
+        <h3> Dinos ese secreto que te quita el sueño, no se lo contaremos a nadie y <br> lo guardaremos con un código que solo tú conocerás para descifrarlo.
+        </h3>
+      </div>
+      <div id="cuerpo">
+          <textarea name="texto original" rows="10" cols="50" id="textOriginal" spellcheck="false" placeholder="Escribe tu secreto" autocapitalize="sentences" font="Arial"></textarea>
+      
+          <! -- Agregar formato para ocultarlo de manera automática al escribirlo -- >
+          <p>Selecciona el grado de cifrado entre 1 y 999</p>
+          <! -- Revisar cuántos grados de cifrado puede haber -- >
+
+          <input type="number" id="cifrado" min="01" max="999">
+        
+          <p><button id="botonCifrar">Esconde mi secreto</button>
+            <button id="botonDescifrar">Muéstrame mi secreto</button></p>
+        
+            <textarea name="textoCifrado" rows="10" cols="50" id="textoCifrado" spellcheck="false" placeholder="¿¿¿???"></textarea>
+      </div>
+      <script src="index.js" type="module"></script>
+    </main>
+  </body>
+</html>

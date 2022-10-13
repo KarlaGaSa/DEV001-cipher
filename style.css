@@ -1,0 +1,24 @@
+
+body{
+  margin-left: 200px;
+  background-image: url(Img/secret1.jpg) ;
+  background-size: cover;
+  height: auto;
+  float: left;
+  text-align: center;
+  align-items: center;
+  color: #3D405B;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.encabezado {
+  text-align: left;
+}
+textarea {
+  background-color: #F8EFE4;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 100;
+  color: #0D1F33;
+}
+button {
+  font-size: medium;
+}
