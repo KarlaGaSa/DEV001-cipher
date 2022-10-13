@@ -28,16 +28,16 @@ La información no es compartida con nadie más mientras las personas usuarias n
 ## 2. Cómo funciona
 
 Para hacer uso de esta aplicación en su función de CIFRAR:
-1. La persona deben ingresar el secreto a esconder en la primer caja de texto
+1. La persona deben ingresar el secreto a esconder en la primer caja de texto.
 2. Seleccionar un número de cifrado entre 1 y 999.
 3. Dar clic en el botón "Esconde mi secreto".
 4. Podrá obtener un texto cifrado de acuerdo al código numérico seleccionado. 
 
 Para hacer uso de esta aplicación en su función de DESCIFRAR:
-1. La persona deben ingresar el texto previamente cifrado en la primer caja de texto
+1. La persona deben ingresar el texto previamente cifrado en la primer caja de texto.
 2. Debera ingresar el mismo código númerico con el cual se cifró el mensaje originalmente (un número entre 1 y 999).
 3. Dar clic en el botón "Muéstrame mi secreto".
-4. Podrá leer nuevamnet el mensaje orioginal en la segunda caja de texto. 
+4. Podrá leer nuevamente el mensaje original en la segunda caja de texto. 
 
 ## 3. Objetivos de aprendizaje generales
 Como continuación del proyecto de preadmisión, volverás a trabajar sobre fundamentos de JavaScript, incluyendo conceptos como variables, condicionales, y funciones, así como eventos y manipulación básica del DOM, fundamentos de HTML y CSS.
